@@ -16,10 +16,19 @@ struct node {
 };
 
 struct point2D {
-  int x, y = 0;
+  int x, y;
+};
+
+enum class Direction {
+  Up = 0,
+  Right = 1,
+  Down = 2,
+  Left = 3,
 };
 
 vector<vector<node>> board;
+vector<bool> horizontals;
+vector<bool> verticals;
 
 //set up walls
 
@@ -47,9 +56,21 @@ void printMaze()
 
 }
 
-int main(){
-    int C, L, T = 0;
+void BreakWall(point2D p, Direction d)
+{
+  switch (d) {
+    case Direction::Up:
 
-cin >> C >> L >> T;
+  }
+}
+
+vector<point2D> getVisitables(point2D p){
+  if ()
+}
+
+int main(){
+    int horizontals, verticals, steps = 0;
+
+cin >> horizontals >> verticals >> steps;
 
 }
