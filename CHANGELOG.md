@@ -1,3 +1,24 @@
+# [1.13.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.12.1...v1.13.0) (2023-10-03)
+
+
+### Features
+
+* **social:** add social media ([0ba237e](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/0ba237e08a0a1191a2308e8f5f9c0433cf07c08f))
+
+## [1.12.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.12.0...v1.12.1) (2023-10-03)
+
+
+### Bug Fixes
+
+* MazeDataStructures.md ([c1ca9b9](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/c1ca9b91be38a76d17af7f8febdd11136f751264))
+
+# [1.12.0](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.11.1...v1.12.0) (2023-10-03)
+
+
+### Features
+
+* **blog:** add entry about maze data structures ([b96d71c](https://github.com/InfiniBrains/Awesome-GameDev-Resources/commit/b96d71cd0769c712c0aefc1659e05e8cbd55f4d3))
+
 ## [1.11.1](https://github.com/InfiniBrains/Awesome-GameDev-Resources/compare/v1.11.0...v1.11.1) (2023-09-14)
 
 
