@@ -50,6 +50,9 @@ int main() {
   std::string turn;
   int sideSize;
   int catX, catY;
+
+  bool won = false;   // set so that while loop runs when this bool is false
+
   std::vector<bool> blocked;
   std::cin >> turn >> sideSize >> catX >> catY;
   blocked = readBoard(sideSize);
