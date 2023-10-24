@@ -24,7 +24,7 @@ In another hand, usually developers do not look for programming language fit, fr
 ## What they look for
 
 The following metrics can be evaluated by reading your portfolio, interviews or tests. The most common evaluation metrics they made are:
-- Position Fit
+- Point2D Fit
     - They are going to search if your portfolio showcase experience in the same area of what they are looking for the specific position they received. Usually they will look for specific keywords for the requirements list;
 - Company fit
     - They take count on your expressed ideas, stated goals, tone, alignment and supporting projects to evaluate your future evolution inside the company; ex. https://wa.aws.amazon.com/wat.pillars.wa-pillars.en.html 
