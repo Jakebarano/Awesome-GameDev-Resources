@@ -5,9 +5,18 @@
 
 
 struct Cat : public IAgent {
-  std::pair<int,int> move(const std::vector<bool>& world, std::pair<int,int> catPos, int sideSize ) override{
+  std::pair<int,int> move(const std::vector<bool>& world, std::pair<int,int> catPos, int sideSize ) override {
+    Board board(world, sideSize, catPos);
 
-    return {0,0}; // todo: change this
+    vector<Point2D> path = buildPath(board);
 
+    if (!path.empty()) {
+      return path[path.size() - 1].toPair();
+    } else {
+      auto pos = board.catPos;
+      auto neighbors = board.NeighborsInsideBoundariesNotBlocked(pos);
+      return neighbors[0].toPair();
+    }
+  }
 };
 #endif
